@@ -1,0 +1,71 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+
+# Data (runtime generated)
+data/
+
+# Environment (never commit secrets)
+.env
+.env.*
+!.env.example
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Compiled JS / artifacts (typescript sources are in src/ as .ts)
+*.js
+*.js.map
+*.d.ts
+*.d.ts.map
+*.mjs
+*.mjs.map
+*.cjs
+*.traineddata
+
+# One-off root test/vision scripts
+/test*.ts
+/test*.js
+/temp_*.js
+/analyze_image.mjs
+/vision_*.js
+/vision_*.mjs
+/vision_*.cjs
+/test
+
+# Windows/old launcher scripts (use npm scripts instead)
+atlas
+atlas.ps1
+*.cmd
+*.bat
+install-deps.cmd
+fix-and-start.cmd
+health_check.bat
+start-atlas.cmd
+screenshot.ps1
+
+# Stray runtime JSON
+fansly_status.json
+
+# Plugins (no public content)
+plugins/
+
+# Personal skills (private)
+skills/coto_product_fetcher.ts
+skills/gmail_manager/
+skills/remote_ssh.ts
+skills/fansly-operator/
+skills/python/fansly_manager/
+
+# Workspace (personal memory and state)
+workspace/
